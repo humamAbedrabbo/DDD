@@ -1,0 +1,32 @@
+﻿@page "/counter"
+@using DDD.Api.Client;
+@using DDD.Contracts.Companies;
+@using DDD.Contracts;
+@using Refit;
+
+@inject DDDSettings settings
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Company</h1>
+
+<p role="status">Current company: @company?.Name</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private CompanyResponse? company = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var api = RestService.For<IDDDService>(settings.ServerUrl);
+        company = await api.GetCompanyAsync();
+    }
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
