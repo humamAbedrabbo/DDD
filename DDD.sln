@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.WebApp", "source\DDD.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.WinApp", "source\DDD.WinApp\DDD.WinApp.csproj", "{D45D47C7-84CC-4A5E-AB94-8E4AF08839F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Api.Client", "DDD.Api.Client\DDD.Api.Client.csproj", "{EC167769-A01B-42B9-95B1-1AA00EC7FB84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Api.Client", "source\DDD.Api.Client\DDD.Api.Client.csproj", "{2487203F-DC41-4D96-BB5B-8779E1A10D70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{D45D47C7-84CC-4A5E-AB94-8E4AF08839F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45D47C7-84CC-4A5E-AB94-8E4AF08839F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45D47C7-84CC-4A5E-AB94-8E4AF08839F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC167769-A01B-42B9-95B1-1AA00EC7FB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC167769-A01B-42B9-95B1-1AA00EC7FB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC167769-A01B-42B9-95B1-1AA00EC7FB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC167769-A01B-42B9-95B1-1AA00EC7FB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2487203F-DC41-4D96-BB5B-8779E1A10D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2487203F-DC41-4D96-BB5B-8779E1A10D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2487203F-DC41-4D96-BB5B-8779E1A10D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2487203F-DC41-4D96-BB5B-8779E1A10D70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
